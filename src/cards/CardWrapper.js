@@ -6,7 +6,6 @@ const CardWrapper = () => {
   return (
     <Wrapper>
       <Cards />
-      <Cards />
     </Wrapper>
   )
 }
