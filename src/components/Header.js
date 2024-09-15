@@ -11,20 +11,20 @@ const Header = () => {
   }
 
   return (
-    <ImageSection>
+    <HeaderSection>
       <Logo src={logo} alt='' onClick={reloadPage} />
       <TextSection>
         <Name>Iver Gentz</Name>
         <Subtitle>Produkt - Projekt - Marketing</Subtitle>
         <Manager>Head of - Team Lead</Manager>
       </TextSection>
-    </ImageSection>
+    </HeaderSection>
   )
 }
 
 export default Header
 
-const ImageSection = styled.section`
+const HeaderSection = styled.section`
   display: flex;
   width: 100vw;
   flex-direction: row;
@@ -32,9 +32,10 @@ const ImageSection = styled.section`
   align-items: center;
   position: fixed;
   top: 0;
-  padding: 3vh 0 6vh 0;
+  padding: 3vh 0 3vh 0;
   z-index: 10;
   border-bottom: 0.5px solid red;
+  box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0);
 `
 
 const Logo = styled.img`
