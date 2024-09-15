@@ -33,6 +33,7 @@ const ImageSection = styled.section`
   position: fixed;
   top: 0;
   padding: 3vh 0 6vh 0;
+  z-index: 10;
 `
 
 const Logo = styled.img`

@@ -1,10 +1,12 @@
 import React from "react"
 import styled from "styled-components"
+import CardWrapper from "../cards/CardWrapper"
 
 const Skills = () => {
   return (
     <Wrapper>
       <h2>Fähigkeiten</h2>
+      <CardWrapper />
     </Wrapper>
   )
 }
