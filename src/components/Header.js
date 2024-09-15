@@ -34,6 +34,7 @@ const ImageSection = styled.section`
   top: 0;
   padding: 3vh 0 6vh 0;
   z-index: 10;
+  border-bottom: 0.5px solid red;
 `
 
 const Logo = styled.img`

@@ -25,7 +25,6 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 3vh;
-  border-radius: 20px;
   padding-bottom: 0;
 `
 
@@ -66,5 +65,4 @@ const Card = styled.div`
   width: 90%;
   margin-bottom: 5vh;
   border: 0.5px solid red;
-  border-radius: 15px;
 `
