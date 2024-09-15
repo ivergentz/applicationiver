@@ -27,11 +27,11 @@ export default Contact
 const Wrapper = styled.section`
   display: flex;
   width: 100vw;
-  height: 40vh;
+  height: auto;
   align-items: flex-start;
   flex-direction: column;
   max-width: 800px;
-  padding-bottom: 10vw;
+  padding-bottom: 3vw;
 
   h2 {
     padding: 0 0 5vh 0;

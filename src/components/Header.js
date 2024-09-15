@@ -15,8 +15,8 @@ const Header = () => {
       <Logo src={logo} alt='' onClick={reloadPage} />
       <TextSection>
         <Name>Iver Gentz</Name>
-        <Subtitle>Produkt-Projekt-Marketing</Subtitle>
-        <Manager>Manager</Manager>
+        <Subtitle>Produkt - Projekt - Marketing</Subtitle>
+        <Manager>Head of - Team Lead</Manager>
       </TextSection>
     </ImageSection>
   )

@@ -11,7 +11,7 @@ const ScrollButton = () => {
 
   const bottomScroll = () => {
     window.scrollTo({
-      top: 10000,
+      top: 100000,
       behavior: "smooth",
     })
   }

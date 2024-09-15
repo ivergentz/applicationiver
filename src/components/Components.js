@@ -4,6 +4,7 @@ import Contact from "./Contact"
 import Cv from "./Cv"
 import Header from "./Header"
 import ScrollButton from "./ScrollButton"
+import Skills from "./Skills"
 import Videoplayer from "./VideoPlayer"
 
 const Components = () => {
@@ -17,6 +18,9 @@ const Components = () => {
       </VideoSection>
       <Section>
         <Cv />
+      </Section>
+      <Section>
+        <Skills />
       </Section>
       <Section>
         <Contact />
