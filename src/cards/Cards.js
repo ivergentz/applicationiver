@@ -64,6 +64,6 @@ const Text = styled.p`
   color: rgb(208, 45, 38);
   font-size: 16px;
   border-radius: 0 0 15px 15px;
-  padding: 10px;
+  margin: 10px 15px;
   border: none;
 `
