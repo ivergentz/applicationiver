@@ -15,7 +15,8 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     flex-direction: column;
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
+
 
   }
 `

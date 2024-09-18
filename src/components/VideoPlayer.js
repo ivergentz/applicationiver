@@ -64,7 +64,6 @@ const Wrapper = styled.section`
   }
   p {
     text-align: justify;
-    letter-spacing: -1px;
     padding: 0 0 5vh 0;
     padding: 4vh;
   }
