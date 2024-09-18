@@ -34,8 +34,9 @@ const VideoPlayer = () => {
           Also nimm' dir doch bitte noch kurz Zeit, schau' dir das Video an und
           überzeuge dich von mir. Und wenn dir gefallen hast, was du gesehen
           hast: <br />
-          Ich freue mich von dir zu hören und ein persönliches Gespräch zu
-          vereinbaren. Klicke hierzu einfach auf das Telefon- oder Mailsymbol im
+          Ich freue mich von dir zu hören und afu ein persönliches Gespräch.
+          <br />
+          Klicke hierzu einfach auf das Telefon- oder Mailsymbol im
           Kontaktbereich, unten auf der Seite.
           <br />
           <br />
