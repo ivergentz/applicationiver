@@ -20,7 +20,7 @@ const VideoPlayer = () => {
           Beziehungsweise meine kleine App, die mich besser vorstellen soll als
           ein langweiliges Anschreiben mit Zeugnissen und Lebenslauf. <br />
           <br />
-          Also nimm' die doch bitte noch kurz Zeit, schau' dir das Video an und
+          Also nimm' dir doch bitte noch kurz Zeit, schau' dir das Video an und
           überzeuge dich von mir. Und wenn dir gefallen hast, was du gesehen
           hast: <br />
           Ich freue mich von dir zu hören und ein persönliches Gespräch zu
