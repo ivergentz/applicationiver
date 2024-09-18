@@ -3,7 +3,6 @@ import styled from "styled-components"
 import cardcontent from "./cardcontent"
 
 const CardWrapper = () => {
-  console.log(cardcontent)
   return (
     <Wrapper>
       {cardcontent.map(function (card) {

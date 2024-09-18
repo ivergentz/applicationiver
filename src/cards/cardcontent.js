@@ -1,27 +1,27 @@
 const cardcontent = [
   {
-    title: "Kommunikation",
-    text: "Lorem aisadfkljas dklföjas ldkfja lsködfj alskdjflaksdjhfghjasgfkj asdfklöasjdf lkaösdjf ",
+    title: "Führung",
+    text: "Motivation, Konfliktlösung & Teamzusammenhalt",
     id: "001",
   },
   {
-    title: "Führung",
-    text: "Lorem aisadfkljas dklföjas askjdfhkajs fashdfk ashdfl asjdhfkl asjhdfkl ajshdflajshdfkl ahsdfjk hsak jdfhklasj dfhajks hfkldahfkl jhdjklashdfjk asdh ldkfja lsködfj alskdjflaksdjhfghjasgfkj asdfklöasjdf lkaösdjf ",
+    title: "Projektmanagement",
+    text: "Planung, Organisation, Umsetzung & Reporting",
     id: "002",
   },
   {
-    title: "Ergebnis",
-    text: "Lorem aisadfkljas dklföjas ldkfja lsködfj alskdjflaksdjhfghjasgfkj asdfklöasjdf lkaösdjf ",
+    title: "Problemlösung",
+    text: "Identifzierung und Lösung komplexer Probleme effektig und zeitnah",
     id: "003",
   },
   {
-    title: "Lösung",
-    text: "Loreasdfjhaslkjdfhsalkjdfhm aisadfkljas dklföjas ldkfja lsködfj alskdjflaksdjhfghjasgfkj asdfklöasjdf lkaösdjf ",
+    title: "Innovation",
+    text: "Kreativität, Ionnvationsgeist & Eeigeninitiative",
     id: "004",
   },
   {
-    title: "Lösung",
-    text: "Lorem aisadfkljas dklfasjdhfaskjhdfaksjdhflköjas ldkfja lsködfj alskdjflaksdjhfghjasgfkj asdfklöasjdf lkaösdjf ",
+    title: "Strategie",
+    text: "Markt- und Wettberwerbsanalyse, strategische Planung & Marketing",
     id: "005",
   },
 ]
