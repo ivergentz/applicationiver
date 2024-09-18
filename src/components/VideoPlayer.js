@@ -1,9 +1,20 @@
-import React from "react"
+import React, { useState } from "react"
 import ReactPlayer from "react-player/lazy"
 import styled from "styled-components"
 import video from "../assets/TonTest.mp4"
 
 const VideoPlayer = () => {
+  const [videoState, setVideoState] = useState(false)
+  const bufferStartHandler = () => {
+    console.log("Bufering.......")
+    setVideoState({ ...videoState, buffer: true })
+  }
+
+  const bufferEndHandler = () => {
+    console.log("buffering stoped ,,,,,,play")
+    setVideoState({ ...videoState, buffer: false })
+  }
+
   return (
     <>
       <Wrapper>
@@ -39,6 +50,8 @@ const VideoPlayer = () => {
           width='100%'
           height='100%'
           controls={true}
+          onBuffer={bufferStartHandler}
+          onBufferEnd={bufferEndHandler}
         />
       </Wrapper>
     </>
