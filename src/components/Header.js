@@ -34,7 +34,7 @@ const HeaderSection = styled.section`
   top: 0;
   padding: 3vh 0 3vh 0;
   z-index: 10;
-  border-bottom: 0.5px solid red;
+  border-bottom: 0.5px solid var(--red);
   box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0);
 `
 
