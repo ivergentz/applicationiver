@@ -20,7 +20,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   max-width: 800px;
   background: var(--red);
-  padding: 3vh;
+  padding: 8vh 3vh 3vh 3vh;
 
   h2 {
     padding: 0 0 5vh 0;

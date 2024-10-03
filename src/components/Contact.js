@@ -33,7 +33,7 @@ const Wrapper = styled.section`
   max-width: 800px;
   padding-bottom: 3vw;
   background: var(--black);
-  padding: 3vh;
+  padding: 8vh 3vh 3vh 3vh;
 
   h2 {
     padding: 0 0 5vh 0;
@@ -45,9 +45,10 @@ const Wrapper = styled.section`
 `
 const IconSection = styled.div`
   background: none;
-  width: 90%;
+  width: 100%;
   justify-content: space-between;
   align-items: end;
+  padding-left: 2vh;
 `
 const Icon = styled.div`
   font-size: 1.2rem;

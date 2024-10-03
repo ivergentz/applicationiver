@@ -19,7 +19,7 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   flex-direction: column;
   background: var(--orange);
-  padding: 3vh;
+  padding: 8vh 3vh 3vh 3vh;
 
   h2 {
     padding: 0 0 5vh 0;

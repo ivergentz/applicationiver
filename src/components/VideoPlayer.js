@@ -73,7 +73,7 @@ const Wrapper = styled.section`
   margin-top: 10vh;
 
   h2 {
-    padding: 0 0 5vh 0;
+    padding: 3vh 0 5vh 0;
     text-transform: uppercase;
     text-decoration: underline;
     padding: 4vh;
