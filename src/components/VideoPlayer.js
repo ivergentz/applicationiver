@@ -20,13 +20,14 @@ const VideoPlayer = () => {
       <Wrapper>
         <h2>Motivation</h2>
         <p>
-          <strong>Moin,</strong>
+          Moin,
           <br />
           <br />
           wenn du hier auf der Seite gelandet bist, warst du neugirig auf mich
           und auf das, was dich hinter dem QR-Code erwartet. <br />
           <br />
-          Die Antwort: <strong>Ich</strong>.<br />
+          Die Antwort: Ich.
+          <br />
           <br />
           Beziehungsweise meine kleine App, die mich besser vorstellen soll als
           ein langweiliges Anschreiben mit Zeugnissen und Lebenslauf. <br />
@@ -68,23 +69,28 @@ const Wrapper = styled.section`
   align-items: flex-start;
   flex-direction: column;
   max-width: 800px;
-  padding-bottom: 4.5vh;
+  background: var(--blue);
+  margin-top: 10vh;
 
   h2 {
     padding: 0 0 5vh 0;
     text-transform: uppercase;
-    text-decoration: underline double;
+    text-decoration: underline;
     padding: 4vh;
+    color: var(--red);
+    background: var(--blue);
   }
   p {
     text-align: justify;
-    padding: 0 0 5vh 0;
     padding: 4vh;
+    background: var(--blue);
+    color: var(--white);
   }
 
   iframe {
     display: flex;
     width: 100%;
     justify-content: center;
+    background: var(--blue);
   }
 `

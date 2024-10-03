@@ -25,6 +25,7 @@ const Wrapper = styled.div`
   align-items: center;
   padding: 2vh;
   padding-bottom: 0;
+  background: var(--red);
 `
 
 const Card = styled.div`
@@ -33,9 +34,9 @@ const Card = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: #63b995;
+  background: var(--orange);
   margin-bottom: 5vh;
-  border: 0.5px solid #63b995;
+  border: 0.5px solid var(--blue);
   border-radius: 15px;
   box-shadow: 1px 2px 3px 2px rgb(0 0 0 / 0.1);
 `
@@ -47,7 +48,7 @@ const Header = styled.h3`
   justify-content: center;
   align-items: center;
   background: none;
-  color: #e2f8f4;
+  color: var(--blue);
   font-size: 16px;
   border-radius: 15px 15px 0 0;
   border: none;
@@ -61,8 +62,8 @@ const Text = styled.p`
   height: auto;
   justify-content: center;
   align-items: center;
-  background: #63b995;
-  color: #e2f8f4;
+  background: var(--orange);
+  color: var(--blue);
   font-size: 16px;
   border-radius: 0 0 15px 15px;
   margin: 10px 15px 30px 10px;

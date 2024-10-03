@@ -53,16 +53,16 @@ const TextSection = styled.div`
 
 const Name = styled.h1`
   font-weight: bold;
-  color: rgb(208, 45, 38);
+  color: var(--orange);
   font-size: 1rem;
   text-transform: uppercase;
 `
 const Subtitle = styled.p`
-  color: rgb(92, 71, 55);
+  color: var(--blue);
 `
 const Manager = styled.p`
   font-weight: bold;
   font-size: 1rem;
   text-transform: uppercase;
-  color: rgb(208, 45, 38);
+  color: var(--orange);
 `

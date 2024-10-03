@@ -32,12 +32,15 @@ const Wrapper = styled.section`
   flex-direction: column;
   max-width: 800px;
   padding-bottom: 3vw;
+  background: var(--black);
+  padding: 3vh;
 
   h2 {
     padding: 0 0 5vh 0;
     text-transform: uppercase;
-    text-decoration: underline double;
+    text-decoration: underline;
     background: none;
+    color: var(--white);
   }
 `
 const IconSection = styled.div`
@@ -57,11 +60,13 @@ const Icon = styled.div`
     cursor: pointer;
     font-size: 1rem;
     background: none;
+    color: var(--blue);
   }
 
   p {
     font-size: 1rem;
     background: none;
     text-transform: uppercase;
+    color: var(--blue);
   }
 `
