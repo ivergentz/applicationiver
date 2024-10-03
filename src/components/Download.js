@@ -56,7 +56,7 @@ const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
   text-transform: uppercase;
-  color: rgb(208, 45, 38);
+  color: #63b995;
 
   &.active {
     font-weight: bold;

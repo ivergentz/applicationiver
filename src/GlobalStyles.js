@@ -7,8 +7,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: white;
-    color: rgb(92, 71, 55);
+    background: #FBFEF9;
+    color: #191923;
+    
    
 }
 
