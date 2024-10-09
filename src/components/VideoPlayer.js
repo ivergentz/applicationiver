@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import ReactPlayer from "react-player/lazy"
 import styled from "styled-components"
-import video from "../assets/TonTest.mp4"
 
 const VideoPlayer = () => {
   const [videoState, setVideoState] = useState(false)
@@ -47,9 +46,9 @@ const VideoPlayer = () => {
         </p>
         <ReactPlayer
           className='react-player fixed-bottom'
-          url={video}
+          url='https://vimeo.com/1017917235?share=copy#t=0'
           width='100%'
-          height='100%'
+          height='32vh'
           controls={true}
           onBuffer={bufferStartHandler}
           onBufferEnd={bufferEndHandler}
